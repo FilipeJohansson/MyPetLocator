@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CODIGO"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCoords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="00.00/00.00"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnRevelarCod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_entrar_background"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Gerar código"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

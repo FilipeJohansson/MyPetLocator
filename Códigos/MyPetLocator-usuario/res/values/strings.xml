@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Pet Locator</string>
+    <string name="title_activity_registrar">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Seu email</string>
+    <string name="prompt_senha">Sua senha</string>
+    <string name="prompt_confirmar_senha">Confirme sua senha</string>
+    <string name="action_esqueceu_senha"><u>Esqueceu sua senha?</u></string>
+    <string name="action_entrar">Entrar</string>
+    <string name="action_registrar">Registar</string>
+    <string name="action_confirmacao_email"><u>Não recebeu sua confirmação por email?</u></string>
+    <string name="action_criar_conta">Criar uma nova conta</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

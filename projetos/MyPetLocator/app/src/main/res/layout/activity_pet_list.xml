@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNomePet"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:textSize="24dp"
+            android:layout_height="wrap_content"
+            android:text="Teddy"/>
+
+        <ImageView
+            android:id="@+id/imgPet"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_cachorro_pastor_alemao"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearSecond"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnAddPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtNomePet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Pet"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/edtCodPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cod do Pet"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_entrar_background"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="20dp"
+        android:text="Cadastrar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+</RelativeLayout>

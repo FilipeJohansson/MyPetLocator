@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "828390703888",
+    "firebase_url": "https://my-pet-locator.firebaseio.com",
+    "project_id": "my-pet-locator",
+    "storage_bucket": "my-pet-locator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828390703888:android:2628739b64a7cae9",
+        "android_client_info": {
+          "package_name": "br.net.johansson.filipe.mypetlocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828390703888-kt04f0mqb96h57gqc0ahgt3es15nsgv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.net.johansson.filipe.mypetlocator",
+            "certificate_hash": "0dd4b49315a751cba9036b3855e471aa9e513818"
+          }
+        },
+        {
+          "client_id": "828390703888-kmeotrt20iov1tb1v2st79jj36866tc0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "828390703888-kmeotrt20iov1tb1v2st79jj36866tc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC70ZPJYt33fOxc3jMXlHNj5iL4d5yU-Ao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828390703888-kmeotrt20iov1tb1v2st79jj36866tc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
